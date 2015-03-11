@@ -1,1 +1,1 @@
-# ced_site
+http://ced.pwned.systems
