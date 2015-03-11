@@ -6,6 +6,10 @@ margin:0;
  background: linear-gradient(#67329a, #401d61); /* Standard syntax */
 }
 
+pre{
+font-family: 'Inconsolata';
+}
+
 div.console_caret_line{
 	overflow:hidden;
 	width:400px;
@@ -24,14 +28,14 @@ div.caret{
 
 div.content {
 	display: block;
-	width: 340px;
+	width: 300px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 60px;
 	background-color: black;
 	height: 340px;
 	padding: 20px;
-	font-family: monospace;
+	font-family: 'Inconsolata' ;
 	color: white;
 	font-size: 16px;
 	background-color: rgba(1,1,1,0.5);
@@ -46,7 +50,7 @@ div.contentx{
 	width:950px;
 	height:457px;
 	margin-left: auto;
-    margin-right: auto;
+    	margin-right: auto;
 	margin-top:60px;
 	background-image: url('img/box.png');
 }
@@ -59,7 +63,7 @@ background-size: contain;
 background-repeat: no-repeat;
 position: fixed;
 bottom: 30;
-left:20;
+left:0;
 z-index: -1;
 }
 
